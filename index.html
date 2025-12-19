@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            border-bottom: 3px solid #2c3e50;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #eef2f3, #ffffff);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1em;
+            color: #34495e;
+        }
+
+        .contact-info i {
+            color: #3498db;
+            margin-right: 8px;
+            width: 20px;
+        }
+
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #1a5276;
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+            border-left: 5px solid #3498db;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        h3 {
+            color: #3498db;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p, li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        .honor-award {
+            background-color: #f8f9fa;
+            padding: 12px 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border-left: 4px solid #2ecc71;
+        }
+
+        .honor-award strong {
+            color: #27ae60;
+        }
+
+        .year {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #95a5a6;
+            font-size: 0.9em;
+            border-top: 1px solid #ecf0f1;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name's Homepage</h1>
+        <p class="subtitle">Dr. [Your Name] (JiFYH, JiIFRS, 1993)</p>
+        <p class="subtitle">School of Information and Communication Engineering, Hainan University, Haikou 570228, China.</p>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:your.email@hainanu.edu.cn">your.email@hainanu.edu.cn</a></p>
+            <p><i class="fas fa-graduation-cap"></i> ORCID / Google Scholar / Other ID: [Your ID Here]</p>
+        </div>
+    </header>
+
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <p>
+            [Your Name] received Ph.D. in [Your Field] from [Your University] (City, Country) in [Year]. During his/her doctoral studies, [he/she] was a visiting researcher at [Visiting University], [Country], in [Year] under the [Scholarship Name]. From [Start Year] to [End Year], [he/she] served as a Postdoctoral Researcher at [University/Institution]. In [Year], [he/she] joined Hainan University (Haikou, China) as an Associate Researcher and is currently an Associate Professor at the School of Information and Communication Engineering of the university. His/Her research focuses on [Your Research Focus 1], [Your Research Focus 2], and [Your Research Focus 3], as well as [Other Research Interests].
+        </p>
+        <!-- 你可以根据需要在这里添加更多段落 -->
+    </section>
+
+    <section id="professional-service">
+        <h2>Professional Service</h2>
+        <ul>
+            <li><span class="year">2025</span> <strong>Youth Editorial Board member</strong>, Journal of Artificial Intelligence and Control Systems;</li>
+            <li><span class="year">2025</span> <strong>Youth Editorial Board member</strong>, Applied Mathematics and Statistics;</li>
+            <!-- 你可以继续添加更多条目 -->
+        </ul>
+    </section>
+
+    <section id="academic-honors">
+        <h2>Academic Honors and Awards</h2>
+        <div class="honor-award">
+            <p><span class="year">2024</span> <strong>Excellent Guidance Teacher</strong>, The 6th Digix Global AI Challenge;</p>
+        </div>
+        <div class="honor-award">
+            <p><span class="year">2024</span> <strong>Second Prize</strong>, Hainan Division of 4th National Teaching Innovation Competition for University Teachers, Rank 3/4;</p>
+        </div>
+        <div class="honor-award">
+            <p><span class="year">2019</span> <strong>CTC Scholarship for Graduate Students</strong>, awarded by Southeast University Education Foundation;</p>
+        </div>
+        <div class="honor-award">
+            <p><span class="year">2018</span> <strong>National Scholarship for Graduate Students</strong>, awarded by Ministry of Education of P. R. China, Rank 1/4;</p>
+        </div>
+        <!-- 你可以继续添加更多奖项 -->
+    </section>
+
+    <footer>
+        <p>© <span id="currentYear"></span> Your Name. Last updated: <span id="lastUpdated"></span></p>
+        <p>This page is hosted by GitHub Pages.</p>
+    </footer>
+
+    <script>
+        // 自动更新年份和日期
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        const lastUpdated = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        document.getElementById('lastUpdated').textContent = lastUpdated;
+    </script>
+
+</body>
+</html>
